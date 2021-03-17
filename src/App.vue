@@ -1,5 +1,5 @@
 <template>
-  <TheTitle msg="Github Profile" />
+  <TheTitle text="Github Profile" />
   <div class="flex justify-around">
     <GithubUserCard
       v-for="(username, index) in usernames"
